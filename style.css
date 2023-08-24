@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button{
+    outline: none !important;
+}
+
+a{
+    text-decoration: none;
+}
+
+body {
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 16px;
+}
+.headings {
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.collect {
+    margin-left: 50px;
+    margin-top: 5px;
+}
+.men {
+    margin-left: 25px;
+    margin-top: 5px;
+}
+.women {
+    margin-left: 25px;
+    margin-top: 5px;
+}
+.about {
+    margin-left: 25px;
+    margin-top: 5px;
+}
+.cont {
+    margin-left: 25px;
+    margin-top: 5px;
+}
+.cart {
+    margin-top: -15px;
+    margin-left: 640px;
+}
+.adam {
+    width: 40px;
+    height: 40px;
+    margin-left: 680px;
+    margin-top: -15px;
+}
+.line {
+    width: 86%;
+    margin-left: 92px;
+}
+.orta {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.head {
+    margin-top: 25px;
+}
+.photos {
+    display: flex;
+    flex-direction: row;
+    margin-left:140px;
+    margin-top: 15px;
+
+}
+.main-foto {
+    width: 62%;
+    height: 62%;
+    border-radius: 15px;
+    margin-top:55px;
+    margin-left: 140px;
+}
+.small-first {
+    width: 85px;
+    height: 85px;
+    border-radius: 10px;
+    margin-left: 3px;
+   
+}
+
+.small-second {
+    width: 85px;
+    height: 85px;
+    margin-left: 59px;
+    border-radius: 10px;
+}
+
+.small-third {
+    width: 85px;
+    height: 85px;
+    margin-left: 59px;
+    border-radius: 10px;
+}
+.small-fourth {
+    width:85px;
+    height: 85px;
+    margin-left: 59px;
+    border-radius: 10px;
+}
+.texts {
+    margin-right: 150px;
+}
+.ilk {
+    color:hsl(26, 100%, 55%) ;
+    margin-top: -150px;
+    text-transform: uppercase;
+}
+.paragraph {
+    margin-top: 30px;
+    
+}
+.number {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+}
+.sale {
+    margin-top: 10px;
+    margin-left: 20px;
+    color: orangered;
+    background-color: lightgoldenrodyellow;
+    border-radius: 5px;
+    height:25px ;
+    width: 40px;
+}
+.first-cost {
+    text-decoration: line-through;
+    margin-top: 10px;
+}
+.sonluq {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.finish {
+    width: 20px;
+    height: 20px;
+}
+.minus {
+    height: 5px;
+    width: 10px;
+    color: orangered;
+    margin-top: 14px;
+}
+.zero {
+    margin-left: 20px;
+    margin-top: 8px;
+}
+.plus {
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 15px;
+    height: 15px;
+}
+.buttom {
+    margin-left: 50px;
+    width: 50%;
+    height: 40px;
+    color: #fff;
+    border: 1px solid orangered;
+    background-color: orangered;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.cart-two {
+    width: 12px;
+    height: 12px;
+    margin-left: -25px;
+    color: #fff;
+}
+.buttom:hover {
+    background-color: peachpuff;
+    color: orange;
+    border: 1px solid #fff;
+    transition: 0.5s all ease;
+}
